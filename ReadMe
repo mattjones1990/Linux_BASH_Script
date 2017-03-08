@@ -1,0 +1,1 @@
+Basic Linux BASH script for my coursework, designed to write to a log file whenever certain changes occur, e.g more memory is used, or more USB devices are present etc.
