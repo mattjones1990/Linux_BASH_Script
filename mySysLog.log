@@ -1,0 +1,453 @@
+Date: 12/08/16 | Time: 23:19:23 |	 SYSTEM SNAPSHOT STARTED
+ 
+Date: 12/08/16 | Processes Currently Running for More Than Zero Seconds
+Time: 23:19:23 |
+		 Processes currently running
+		 -------------------------------------------------------------------
+		 Total number of processes running: 	52
+ 
+		 PID	Time		Command	
+		 1	00:00:02	systemd	
+		 7	00:00:08	rcu_sched	
+		 32	00:00:01	khugepaged	
+		 266	00:00:01	kworker/3:1H	
+		 268	00:00:01	jbd2/sda5-8	
+		 345	00:00:01	systemd-udevd	
+		 944	00:00:07	dbus-daemon	
+		 973	00:00:05	NetworkManager	
+		 991	00:00:01	acpid	
+		 992	00:00:06	evince	
+		 1094	00:00:01	polkitd	
+		 1111	00:18:53	Xorg	
+		 1139	00:00:09	mysqld	
+		 1729	00:00:01	dnsmasq	
+		 1827	00:00:11	dbus-daemon	
+		 1931	00:00:54	ibus-daemon	
+		 2016	00:00:02	upstart-dbus-br	
+		 2049	00:00:09	ibus-ui-gtk3	
+		 2063	00:00:15	ibus-engine-sim	
+		 2072	00:00:11	bamfdaemon	
+		 2082	00:00:48	hud-service	
+		 2084	00:00:01	unity-settings-	
+		 2105	00:01:15	unity-panel-ser	
+		 2108	00:00:01	dbus-daemon	
+		 2116	00:16:38	compiz	
+		 2134	00:00:04	at-spi2-registr	
+		 2268	00:00:02	notify-osd	
+		 2276	00:00:03	nm-applet	
+		 2277	00:00:14	gnome-software	
+		 2285	00:00:57	nautilus	
+		 2309	00:00:03	udisksd	
+		 2464	00:00:02	zeitgeist-daemo	
+		 2471	00:00:03	zeitgeist-fts	
+		 2473	00:00:01	zeitgeist-datah	
+		 5092	00:00:01	kworker/u16:1	
+		 9684	00:00:05	gnome-terminal-	
+		 23819	00:00:01	kworker/0:1	
+		 25187	00:00:03	kworker/u16:3	
+		 25373	01:06:18	firefox	
+		 25988	00:01:10	shutter	
+		 26130	00:03:54	soffice.bin	
+		 28774	00:00:02	Xorg	
+		 28946	00:00:02	kworker/1:2	
+		 29328	00:00:04	compiz	
+		 29498	00:00:01	nautilus	
+		 29554	00:00:03	gnome-software	
+		 31087	00:00:16	gedit	
+		 31105	00:00:02	kworker/2:3	
+		 31117	00:00:02	kworker/u16:2	
+		 32110	00:00:02	kworker/3:0	
+		 32127	00:00:01	kworker/0:2	
+ 
+Date: 12/08/16 | Home Directory Disk Usage (Located in ~/home/matthew)
+Time: 23:19:23 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	7248MB 		(7.248GB)
+		 Megabytes Available: 	142619MB 	(142.619GB)
+		 Disk Usage: 		5%
+ 
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:19:24 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14515MB 	(14.515GB)
+		 Megabytes Available: 	304336MB 	(304.336GB)
+ 
+Date: 12/08/16 | Total Temporary File (tmpfs) Disk Usage
+Time: 23:19:24 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	19MB
+ 
+Date: 12/08/16 | USB Devices Attached
+Time: 23:19:24 |
+		 Current USB Usage
+		 -------------------------------------------------------------------
+		 Total number of USB devices attached: 	5
+ 
+		 Bus	Device	ID		Device Name
+		 002	003:	058f:6366	Alcor Micro Corp. Multi Flash Reader 
+		 002	025:	090c:1000	Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive 
+		 002	024:	148f:5370	Ralink Technology, Corp. RT5370 Wireless Adapter 
+		 003	003:	045e:0745	Microsoft Corp. Nano Transceiver v1.0 for Bluetooth 
+		 003	002:	093a:2510	Pixart Imaging, Inc. Optical Mouse 
+ 
+Date: 12/08/16 | Interfaces In Use
+Time: 23:19:24 |
+		 Current Interfaces
+		 -------------------------------------------------------------------
+		 Total number of interfaces in use: 	3
+ 
+enp3s0    Link encap:Ethernet  HWaddr 50:46:5d:06:cf:0e  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:21662 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:21662 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:2470841 (2.4 MB)  TX bytes:2470841 (2.4 MB)
+
+wlx0013efd01d3c Link encap:Ethernet  HWaddr 00:13:ef:d0:1d:3c  
+          inet addr:192.168.1.95  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecdb:d934:ca0f:96e5/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:22183 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:17114 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:24903158 (24.9 MB)  TX bytes:2512063 (2.5 MB)
+
+Date: 12/08/16 | Users Logged on
+Time: 23:19:24 |
+		 Current Users Logged on
+		 -------------------------------------------------------------------
+		 Total number of users/sessions: 	2
+ 
+		 User		TTY	Login Time
+		 matthew	tty7	19:31	
+		 guest-bz	tty8	22:35	
+ 
+Date: 12/08/16 | Time: 23:19:23 |	 SYSTEM SNAPSHOT ENDED
+ 
+LOGGED CHANGES
+ 
+Date: 12/08/16 | Processes Currently Running for More Than Zero Seconds
+Time: 23:19:40 |
+		 Processes currently running
+		 -------------------------------------------------------------------
+		 Total number of processes running: 	48
+
+		 The Number of running processes has changed from 52 to 48
+		 Process Details:
+
+		 PID	Time		Command	
+		 1	00:00:02	systemd	
+		 7	00:00:08	rcu_sched	
+		 32	00:00:01	khugepaged	
+		 266	00:00:01	kworker/3:1H	
+		 268	00:00:01	jbd2/sda5-8	
+		 345	00:00:01	systemd-udevd	
+		 944	00:00:07	dbus-daemon	
+		 973	00:00:05	NetworkManager	
+		 991	00:00:01	acpid	
+		 992	00:00:06	evince	
+		 1094	00:00:01	polkitd	
+		 1111	00:18:56	Xorg	
+		 1139	00:00:09	mysqld	
+		 1729	00:00:01	dnsmasq	
+		 1827	00:00:11	dbus-daemon	
+		 1931	00:00:54	ibus-daemon	
+		 2016	00:00:02	upstart-dbus-br	
+		 2049	00:00:09	ibus-ui-gtk3	
+		 2063	00:00:15	ibus-engine-sim	
+		 2072	00:00:11	bamfdaemon	
+		 2082	00:00:48	hud-service	
+		 2084	00:00:01	unity-settings-	
+		 2105	00:01:16	unity-panel-ser	
+		 2108	00:00:01	dbus-daemon	
+		 2116	00:16:40	compiz	
+		 2134	00:00:04	at-spi2-registr	
+		 2268	00:00:02	notify-osd	
+		 2276	00:00:03	nm-applet	
+		 2277	00:00:14	gnome-software	
+		 2285	00:00:57	nautilus	
+		 2309	00:00:03	udisksd	
+		 2464	00:00:02	zeitgeist-daemo	
+		 2471	00:00:03	zeitgeist-fts	
+		 2473	00:00:01	zeitgeist-datah	
+		 5092	00:00:01	kworker/u16:1	
+		 9684	00:00:05	gnome-terminal-	
+		 23819	00:00:01	kworker/0:1	
+		 25187	00:00:03	kworker/u16:3	
+		 25373	01:06:19	firefox	
+		 25988	00:01:10	shutter	
+		 26130	00:03:54	soffice.bin	
+		 28946	00:00:02	kworker/1:2	
+		 31087	00:00:16	gedit	
+		 31105	00:00:02	kworker/2:3	
+		 31117	00:00:02	kworker/u16:2	
+		 32110	00:00:02	kworker/3:0	
+		 32127	00:00:01	kworker/0:2	
+ 
+Date: 12/08/16 | Users Logged on
+Time: 23:19:40 |
+		 Current Users Logged on
+		 -------------------------------------------------------------------
+		 Total number of users/sessions: 	1
+
+		 The Number of users logged on has changed from 2 to 1
+
+		 User details:
+
+		 User		TTY	Login Time
+		 matthew	tty7	19:31	
+ 
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:19:40 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14511MB 	(14.511GB)
+		 Megabytes Available: 	299548MB 	(299.548GB)
+
+		 The Number of Megabytes used has changed from 14515MB to 14511MB
+
+Date: 12/08/16 | Total Temporary File (tmpfs) Disk Usage
+Time: 23:19:40 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	15MB
+
+		 The Number of Megabytes used has changed from 19MB to 15MB
+ 
+Date: 12/08/16 | USB Devices Attached
+Time: 23:19:46 |
+		 Current USB Usage
+		 -------------------------------------------------------------------
+		 Total number of USB devices attached: 	4 (was previously 5) 
+
+		 Bus	Device	ID		Device Name
+		 002	003:	058f:6366	Alcor Micro Corp. Multi Flash Reader 
+		 002	024:	148f:5370	Ralink Technology, Corp. RT5370 Wireless Adapter 
+		 003	003:	045e:0745	Microsoft Corp. Nano Transceiver v1.0 for Bluetooth 
+		 003	002:	093a:2510	Pixart Imaging, Inc. Optical Mouse  
+
+Date: 12/08/16 | Interfaces In Use
+Time: 23:19:56 |
+		 Current Interfaces
+		 -------------------------------------------------------------------
+		 Total number of interfaces in use: 	2
+
+		 The Number of interfaces in use has changed from 3 to 2
+
+		 Interface details:
+
+enp3s0    Link encap:Ethernet  HWaddr 50:46:5d:06:cf:0e  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:21715 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:21715 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:2478862 (2.4 MB)  TX bytes:2478862 (2.4 MB)
+
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:19:56 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14569MB 	(14.569GB)
+		 Megabytes Available: 	303321MB 	(303.321GB)
+
+		 The Number of Megabytes used has changed from 14511MB to 14569MB
+
+Date: 12/08/16 |
+Time: 23:19:51 | The Number of USB devices hasn't changed, but some details have! (See below)
+ 
+		 Bus	Device	ID		Device Name
+		 002	003:	058f:6366	Alcor Micro Corp. Multi Flash Reader 
+		 002	026:	090c:1000	Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive 
+		 003	003:	045e:0745	Microsoft Corp. Nano Transceiver v1.0 for Bluetooth 
+		 003	002:	093a:2510	Pixart Imaging, Inc. Optical Mouse 
+ 
+Date: 12/08/16 | Processes Currently Running for More Than Zero Seconds
+Time: 23:20:02 |
+		 Processes currently running
+		 -------------------------------------------------------------------
+		 Total number of processes running: 	49
+
+		 The Number of running processes has changed from 48 to 49
+		 Process Details:
+
+		 PID	Time		Command	
+		 1	00:00:02	systemd	
+		 7	00:00:08	rcu_sched	
+		 32	00:00:01	khugepaged	
+		 266	00:00:01	kworker/3:1H	
+		 268	00:00:01	jbd2/sda5-8	
+		 311	00:00:01	systemd-journal	
+		 345	00:00:01	systemd-udevd	
+		 944	00:00:07	dbus-daemon	
+		 973	00:00:05	NetworkManager	
+		 991	00:00:01	acpid	
+		 992	00:00:06	evince	
+		 1094	00:00:01	polkitd	
+		 1111	00:18:58	Xorg	
+		 1139	00:00:09	mysqld	
+		 1729	00:00:01	dnsmasq	
+		 1827	00:00:12	dbus-daemon	
+		 1931	00:00:54	ibus-daemon	
+		 2016	00:00:02	upstart-dbus-br	
+		 2049	00:00:09	ibus-ui-gtk3	
+		 2063	00:00:15	ibus-engine-sim	
+		 2072	00:00:11	bamfdaemon	
+		 2082	00:00:48	hud-service	
+		 2084	00:00:01	unity-settings-	
+		 2105	00:01:17	unity-panel-ser	
+		 2108	00:00:01	dbus-daemon	
+		 2116	00:16:41	compiz	
+		 2134	00:00:04	at-spi2-registr	
+		 2268	00:00:02	notify-osd	
+		 2276	00:00:03	nm-applet	
+		 2277	00:00:15	gnome-software	
+		 2285	00:00:59	nautilus	
+		 2309	00:00:03	udisksd	
+		 2464	00:00:02	zeitgeist-daemo	
+		 2471	00:00:03	zeitgeist-fts	
+		 2473	00:00:01	zeitgeist-datah	
+		 5092	00:00:01	kworker/u16:1	
+		 9684	00:00:05	gnome-terminal-	
+		 23819	00:00:01	kworker/0:1	
+		 25187	00:00:03	kworker/u16:3	
+		 25373	01:06:20	firefox	
+		 25988	00:01:11	shutter	
+		 26130	00:03:54	soffice.bin	
+		 28946	00:00:02	kworker/1:2	
+		 31087	00:00:16	gedit	
+		 31105	00:00:02	kworker/2:3	
+		 31117	00:00:02	kworker/u16:2	
+		 32110	00:00:02	kworker/3:0	
+		 32127	00:00:01	kworker/0:2	
+ 
+Date: 12/08/16 | Interfaces In Use
+Time: 23:20:02 |
+		 Current Interfaces
+		 -------------------------------------------------------------------
+		 Total number of interfaces in use: 	3
+
+		 The Number of interfaces in use has changed from 2 to 3
+
+		 Interface details:
+
+enp3s0    Link encap:Ethernet  HWaddr 50:46:5d:06:cf:0e  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:21746 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:21746 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:2481185 (2.4 MB)  TX bytes:2481185 (2.4 MB)
+
+wlx0013efd01d3c Link encap:Ethernet  HWaddr 00:13:ef:d0:1d:3c  
+          inet addr:192.168.1.95  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecdb:d934:ca0f:96e5/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:30 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:38 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:30458 (30.4 KB)  TX bytes:4309 (4.3 KB)
+
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:20:02 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14511MB 	(14.511GB)
+		 Megabytes Available: 	299548MB 	(299.548GB)
+
+		 The Number of Megabytes used has changed from 14569MB to 14511MB
+
+Date: 12/08/16 |
+Time: 23:19:57 | The Number of USB devices hasn't changed, but some details have! (See below)
+ 
+		 Bus	Device	ID		Device Name
+		 002	003:	058f:6366	Alcor Micro Corp. Multi Flash Reader 
+		 002	027:	148f:5370	Ralink Technology, Corp. RT5370 Wireless Adapter 
+		 003	003:	045e:0745	Microsoft Corp. Nano Transceiver v1.0 for Bluetooth 
+		 003	002:	093a:2510	Pixart Imaging, Inc. Optical Mouse 
+ 
+Date: 12/08/16 | Home Directory Disk Usage (Located in ~/home/matthew)
+Time: 23:20:13 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	7347MB 		(7.347GB)
+		 Megabytes Available: 	142519MB 	(142.519GB)
+		 Disk Usage: 		5%
+
+		 The Number of Megabytes used has changed from 7248MB to 7347MB
+ 
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:20:13 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14709MB 	(14.709GB)
+		 Megabytes Available: 	299348MB 	(299.348GB)
+
+		 The Number of Megabytes used has changed from 14511MB to 14709MB
+
+Date: 12/08/16 | Home Directory Disk Usage (Located in ~/home/matthew)
+Time: 23:20:23 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	7348MB 		(7.348GB)
+		 Megabytes Available: 	142519MB 	(142.519GB)
+		 Disk Usage: 		5%
+
+		 The Number of Megabytes used has changed from 7347MB to 7348MB
+ 
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:20:23 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14711MB 	(14.711GB)
+		 Megabytes Available: 	299348MB 	(299.348GB)
+
+		 The Number of Megabytes used has changed from 14709MB to 14711MB
+
+Date: 12/08/16 | Home Directory Disk Usage (Located in ~/home/matthew)
+Time: 23:20:50 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	7353MB 		(7.353GB)
+		 Megabytes Available: 	142513MB 	(142.513GB)
+		 Disk Usage: 		5%
+
+		 The Number of Megabytes used has changed from 7348MB to 7353MB
+ 
+Date: 12/08/16 | Total Disk Usage and Availability
+Time: 23:20:50 |
+		 Current Usage
+		 -------------------------------------------------------------------
+		 Megabytes Used: 	14721MB 	(14.721GB)
+		 Megabytes Available: 	299336MB 	(299.336GB)
+
+		 The Number of Megabytes used has changed from 14711MB to 14721MB
+
